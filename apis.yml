@@ -1,0 +1,32 @@
+aid: lob-com
+name: Lob.com
+description: "US Address Verification"
+url: https://lob.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Data Validation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Data Validation
+  - Public APIs
+apis:
+  - name: Lob.com
+    description: "US Address Verification"
+    humanURL: https://lob.com/
+    baseURL: https://lob.com/
+    tags:
+      - Data Validation
+    properties:
+      - type: Documentation
+        url: https://lob.com/
+common:
+  - type: Website
+    url: https://lob.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
